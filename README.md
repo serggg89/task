@@ -17,4 +17,6 @@ requirements.txt  - list of used libs
 I added checking of status code, because according to the REST spec the server should send 401 (Unauthorized)
 after that I map response to the JsonObject. It validate json structure, types of data and required fields.
 In the models I create method __eq__ it helps compare two objects
+
+for testing I created mock url. You can uncomment it in constants/env.py
   
