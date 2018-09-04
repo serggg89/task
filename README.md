@@ -2,9 +2,13 @@
 project structure:
 /models - package with models. I map all response to JsonObject. It help to validate responses. 
 moreover the method __eq__ also added to the model
+
 /constants - constants and test data. 
+
 /api_tests - package with tests
+
 pytest.ini - file with pytest configuration
+
 requirements.txt  - list of used libs
 
 
