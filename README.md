@@ -1,5 +1,6 @@
 # task
 project structure:
+
 /models - package with models. I map all response to JsonObject. It help to validate responses. 
 moreover the method __eq__ also added to the model
 
